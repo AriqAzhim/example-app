@@ -54,7 +54,7 @@ fn main() -> Result<(),CubeOSError>{
     //
     match connection.transfer(msg,1) {
         Ok(r) => println!("{:?}",r),
-        Err(_) => println!("Error"),
+        Err(_) => println!("Error-1"),
     }
 
     // Create a command
@@ -69,7 +69,7 @@ fn main() -> Result<(),CubeOSError>{
 
     match connection.transfer(msg,20) {
         Ok(r) => println!("{:?}", r),
-        Err(_) => println!("Error"),
+        Err(_) => println!("Error-20"),
     }
 
     // Create a command
@@ -92,7 +92,7 @@ fn main() -> Result<(),CubeOSError>{
 
     match connection.transfer(msg,1) {
         Ok(r) => println!("{:?}", r),
-        Err(_) => println!("Error"),
+        Err(_) => println!("Error-1"),
     }
 
     // Create a command
@@ -108,7 +108,7 @@ fn main() -> Result<(),CubeOSError>{
 
     match connection.transfer(msg,20) {
         Ok(r) => println!("{:?}", r),
-        Err(_) => println!("Error"),
+        Err(_) => println!("Error-20"),
     }
 
     Ok(())
