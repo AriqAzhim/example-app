@@ -7,6 +7,7 @@ use cubeos_service::Command;
 // CommandID Enum from Service can not be imported here, 
 // copy-paste list of commands from service into this CommandID macro,
 // to create a copy that can be used in the App
+//
 command_id!{
     Ping,
     Get,
