@@ -8,7 +8,7 @@ edition = "2018"
 git-fetch-with-cli = true
 
 [dependencies]
-example-api = { git = "ssh://git@github.com/Cube-OS/example-api.git"}
+example-api = { git = "https://github.com/AriqAzhim/sperospace-contactile-api.git"}
 command-id = { git = "ssh://git@github.com/Cube-OS/command-id.git"}
 bincode = { git = "ssh://git@github.com/Cube-OS/bincode.git"}
 cubeos-service = { git = "ssh://git@github.com/Cube-OS/cubeos-service.git"}
