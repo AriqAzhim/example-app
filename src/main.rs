@@ -9,9 +9,11 @@ use cubeos_service::Command;
 // to create a copy that can be used in the App
 //
 command_id!{
+    //Keep these command IDs reserved, these commands are implemented in the CubeOS service
     Ping,
     Get,
     Set,
+    //Add your commands here
 }
 
 // This example App 
